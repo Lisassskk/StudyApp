@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00b2b7;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Reply_icon" data-name="Reply icon" class="cls-1" d="M607,1090.85a17.732,17.732,0,0,0-12.478-11.97l0-3.89L583,1082.52l11.519,7.23,0-3.92c9.4-.98,11.93,4.88,12.039,5.17Z" transform="translate(-583 -1075)"/>
+</svg>

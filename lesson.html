@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Lesson</title>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta name="viewport" content="width=1080, minimum-scale=0.3,target-densitydpi=device-dpi,user-scalable=no,">	
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/all.css"/>
+</head>
+	<body>
+		
+		<header class="app-bar">
+			<p class="iconfont fl "></p>
+			<h1 class="title">Lesson</h1>
+		</header>
+		<!------------------标头结束--------------------->		
+		<div class="app-lesson">
+			<div class="app-lesson-video">
+				<img src="img/video_03.jpg"/><!---------添加视频----------->		
+			</div>
+			<div class="app-lesson-text ">
+				<div class="list-p clearfix"><p><a href="">BCC</a>><a>Unit 1</a>>&nbsp;Lesson 1</p><span></span></div>
+				<div class="list-overview clearfix">
+					<p>Overview of Manderin Chinese</p>
+					<span class="comment">
+						<i>99+</i>
+					</span>					
+					<img src="img/bookmark.svg"/>
+				</div>	
+				<div class="app-content-text">
+					<p>
+						You're halfway 
+					there with the tones 
+					now and it's time to 
+					tack the third and fourth 
+					tones. In this lesson, 
+					let Yangyang break down these essential 
+					sounds for you and how to
+					 produce them yourself
+					 using a few essential tips.
+					</bp>
+				</div>	
+				<a href="" class="app-start">START PRACTICE</a>
+			</div>
+		</div>
+		<!------------------内容结束--------------------->
+		<div class="app-lesson-menu">
+			<div class="menu-list">
+				<div class="menu-img"><img src="img/Audio review blue.svg"/></div>
+				<p>Audio Review</p>
+			</div>
+			<div class="menu-list">
+				<div class="menu-img"><img src="img/Dialogue replay blue.svg"/></div>
+				<p>Dialogue Replay</p>
+			</div>		
+			<div class="menu-list">
+				<div class="menu-img"><img src="img/Lecture notes icon.svg"/></div>
+				<p>Lecture Notes</p>
+			</div>
+			<div class="menu-list">
+				<div class="menu-img"><img src="img/Cancel blue.svg"/></div>
+				<p>Cancel</p>
+			</div>			
+		</div>
+		<!------------------菜单结束--------------------->
+		<div class="app-foot">
+			<a class="tab-item">
+				<img src="img/Home icon.svg" class="tab-item-img"/>
+				<span class="tab-item-name">Home</span>			
+			</a>	
+			<a class="tab-item">
+				<img src="img/Course icon active.svg" class="tab-item-img"/>
+				<span class="tab-item-name change">Courses</span>
+				<span class="tab-item-cricle"></span>
+			</a>	
+			<a class="tab-item">
+				<img src="img/Review icon.svg" class="tab-item-img"/>
+				<span class="tab-item-name">Review</span>
+			</a>	
+			<a class="tab-item">
+				<img src="img/Resources icon.svg" class="tab-item-img"/>
+				<span class="tab-item-name">Resources</span>
+			</a>	
+			<a class="tab-item">
+				<img src="img/Me icon.svg" class="tab-item-img"/>
+				<span class="tab-item-name">Me</span>
+			</a>			
+		</div>	
+		<!------------------底部结束--------------------->		
+	</body>
+	<script src="//cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.app-lesson-text .list-p span').click(function(){
+				$('.app-lesson-menu').animate({bottom:"0"},500)
+			})
+			$('.app-lesson-menu .menu-list').eq(3).click(function(){
+				$(this).parent().animate({bottom:"-578px"},500)
+			})
+		})
+	</script>
+</html>

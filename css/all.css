@@ -1,0 +1,793 @@
+.app-bar{
+  z-index: 10;
+  height: 144px;
+  padding: 0 20px;
+  background-color: #2bc3cc;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: relative;
+  }
+  .title {
+  position: absolute;
+  display: block;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding: 0 20px;
+  font-size:40px;
+  font-weight: 500;
+  line-height:144px;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 1;
+  letter-spacing: 3px;
+}
+.app-bar p{
+	color:#FFFFFF;
+	position: relative;
+	z-index: 9999;
+}
+.app-bar p.fl{
+	line-height: 144px;
+	font-size:60px;
+	margin-left: 20px;
+	background:url(../img/back_light.svg) center no-repeat;
+	width:100px;
+	height: 144px;
+	background-size: 100%;
+}
+.app-bar p.fr{
+	position: relative;
+	font-size: 50px;
+	margin-right:20px;
+	width: 20%;
+	height: 70px;
+	margin: 37px 0;
+}
+.app-bar p.fr i{
+	text-align: center;
+	font-size:85px;
+display: block;
+line-height:35px;
+width: 100%;
+background: url(../img/dian.svg) center no-repeat;
+height: 35px;
+}
+.app-bar p.fr span.more{
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	line-height: 35px;
+}
+.app-bar p.fr span.i{
+	position: absolute;
+	left: -10px;
+	top: -20px;
+	font-size: 50px;
+	background: url(../img/i.svg) no-repeat center;
+	background-size: 100%;
+	width: 55px;
+	height: 55px;
+}
+.app-cue{
+	width: 662px;
+	height: 340px;
+	background: #2bc3cc;
+	position: absolute;
+	top:144px;
+	right: 0;
+	z-index: 999;
+	box-shadow:1px 4px 10px 1px #b7b5b5;
+	padding:15px 48px;
+	display: none;
+}
+.app-cue p{
+	line-height: 105px;
+	font-size: 31px;
+	color: #FFFFFF;
+	border-bottom: 2px solid #FFFFFF;
+}
+.app-cue p img{
+	margin-right: 20px;
+}
+.app-cue p:nth-child(3){
+	border: none;
+}
+/*头部通用样式*/
+.app-loginin{
+	width: 540px;
+	margin: 0 auto;
+	margin-top: 144px;
+}
+.app-loginin li{
+	width: 540px;
+	height: 125px;
+	background: #3c5a9a;
+	border-radius: 8px;
+	color: #FFFFFF;
+	padding-left: 42px;
+	display: flex;
+	display: -webkit-flex;
+}
+.app-loginin li img{
+	margin: 16px 0;
+
+}
+.app-loginin li p{
+	line-height: 125px;
+	margin-left: 28px;
+	font-size: 28px;
+	letter-spacing: 4px;
+}
+.app-loginin li.red{
+	background-color: #ff3b37 ;
+	margin-top: 49.78px;
+}
+.app-transit{
+	width: 813.99px;
+	margin: 0 auto;
+	margin-top: 125px;
+	height: 30px;
+	display: flex;
+	display: -webkit-flex;
+}
+.app-transit span{
+	display: block;
+	width: 256px;
+	height: 4px;
+	background-color: #95e1e6;
+	margin: 13px;
+}
+.app-transit p{
+	width: 304px;
+	line-height: 30px;
+	font-size: 40px;
+	color: rgba(255,255,255,0.5);
+	text-align: center;
+}
+.app-login-form{
+	width: 813.99px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.app-login-form .boxtar{
+	width: inherit;
+	height: 106.25px;
+	display: flex;
+}
+.app-login-form .boxtar img{
+	display: block;
+}
+.app-login-form .boxtar .box-input{
+	width: 541px;
+	height: 106.25px;
+	margin-left: 61px;
+	padding-left: 57px;
+	background-color: rgba(255,255,255,0.8);
+}
+.app-login-form .boxtar:nth-child(2){
+	margin-top: 34px;
+}
+.app-login-form .boxtar .box-input input{
+	height: 106.25px;
+	font-size: 36px;
+	color:#9b9b9b;
+	background: none;
+	display: block;
+	width: 100%;
+}
+.app-login-form .p-rember{
+	margin-top: 70px;
+	margin-left: 147px;
+	display: flex;
+	height: 38px;
+	color: #FFFFFF;
+	letter-spacing: 3px;
+}
+.app-login-form .p-rember p.check{
+	width: 38px;
+	height: 38px;
+	border: 3px #FFFFFF solid;
+}
+.app-login-form .p-rember p.text{
+	margin-left: 31px;
+	line-height: 38px;
+}
+.app-login-form .p-forget{
+	margin-top: 50px;
+	color: #FFFFFF;
+	display: block;
+	margin-left: 147px;
+	font-size: 30px;
+	text-decoration: underline;
+}
+.app-btn-login{
+	width: 545.88px;
+	height: 117.81px;
+	background-color: #ffaf00;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 93px;
+	line-height: 117.81px;
+	font-size: 40px;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.app-btn-login img{
+	width:44px;
+}
+
+.app-accountxt{
+	width: 100%;
+	text-align: center;
+	margin-top: 60px;
+	color: #FFFFFF;
+	font-size: 35px;
+	letter-spacing:2px;
+}
+.app-accountxt a{
+	text-decoration: underline;
+}
+/*登录页面*/
+.app-course-schedule{
+	background-color: #FFFFFF;
+	height: 96.97px;
+	padding: 0 159px;
+}
+.app-course-schedule .schedulebox{
+	width: 37px;
+	height: 37px;
+	background-color:#8edadc ;
+	border-radius: 50%;
+	position: relative;
+}
+.app-course-schedule li{
+	width: 16.6%;
+	height: 96.97px;
+	float: left;
+}
+@-webkit-keyframes circleLoad_1{
+  0%,50%{
+    background: #FFFFFF;
+  }
+  100%{
+    background:#2bc3cc;
+  }
+}
+.app-course-schedule li>span{
+	width: 37px;
+	height: 37px;
+	border:4px solid #8edadc ;
+	border-radius: 50%;
+	position: relative;
+	display: block;
+	margin: 15px  44.74px 0 44.74px;
+	box-sizing: border-box;
+	-webkit-animation:circleLoad_1 1.5s ease-in;
+}
+.app-course-schedule li>span:after{
+	position: absolute;
+	border-bottom: 1px solid #5ccacd;
+	width: 97px;
+	height: 2px;
+	content: "";
+	left: 33px;
+	top: 14px;
+}
+.app-course-schedule li:nth-child(6)>span:after{
+	border: none;
+}
+.app-course-schedule li>p{
+	text-align: center;
+	font-size: 31px;
+	color: rgba(43,195,204,0.5);
+	text-align: center;
+	display: block;
+}
+.app-course-list{
+	padding:0 50px;
+	display: flex;
+	flex-flow:row  wrap-reverse;
+}
+.app-course-list ul{
+	text-align: center;
+}
+.app-course-list li{
+	width: 293px;
+	height: 417px;
+	float: left;
+	margin-left: 50px;
+	display: block;
+	padding: 0 25px;
+	position: relative;
+	margin-top: 50px;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;	
+}
+.app-course-list li.change{
+	filter: none;
+	-webkit-filter: none;	
+	-moz-filter: none;
+	-ms-filter: none;
+	-o-filter: none;
+}
+.app-course-list li:nth-child(3n-2){
+	margin-left: 0;
+}
+.app-course-list li .course-list-img{
+	width: 153px;
+	height: 153px;
+	border-radius: 50%;
+	margin: 0 auto;
+	position: relative;
+	overflow:hidden;
+}
+.app-course-list li .course-list-img img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 153px;
+	height: 153px;
+
+}
+.app-course-list li h1{
+	text-align: center;
+	color: #1d1d1d;
+	font-size:30px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+.app-course-list li p.contentxt{
+	text-align: center;
+	color: #535353;
+	font-size: 30px;
+}
+.app-course-list li p.rate{
+ 			width: 169.97px;
+ 			height: 14.59px;
+ 			border-radius: 5px;
+ 			position: absolute;
+ 			bottom: 0;
+ 			left: 61.5px;
+ 			background-color: #dddddd;
+}
+.app-course-list li p.rate span{
+	display: block;
+	border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  background-color:#6dae73 ;
+  -webkit-animation:load 3s ease-in;
+}
+@-webkit-keyframes load{
+  0%{
+    width: 0%;
+  }
+  50%{
+  	width: 50%;
+  	background: #ffaf00;
+  }
+  100%{
+    width:100%;
+    background: #6dae73;
+  }
+ } 
+.app-course-aspect{
+	width: 789.04px;
+	height: 128px;
+	margin: 0 auto;
+	display: flex;
+	margin-top: 86px;
+	margin-bottom:200px;
+}
+.app-course-aspect p{
+	width: 438.25px;
+	height: 114.78px;
+	line-height: 114.78px;
+	border: 5px solid #2bc3cc;
+	color: #2bc3cc;
+	font-size: 40px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 6.61px 115px;
+}
+/*course页面*/
+.app-foot{
+	position: fixed;
+	background-color: #484848;
+	height: 160px;
+	bottom: 0;
+	z-index: 100;
+	width: 100%;
+}
+.app-foot .tab-item{
+	position: relative;
+	display: table-cell;
+	width: 1%;
+	height: 160px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.app-foot .tab-item.tab-item-active, .jui-foot .tab-item:active{
+	color: #39b7ff;
+}
+.app-foot .tab-item .tab-item-icon{
+	font-size: 50px;
+	display: block;
+
+}
+.app-foot .tab-item .tab-item-img{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 7px;
+	margin-top: 24px;
+}
+.app-foot .tab-item .tab-item-name{
+	font-size:31px;
+	display: block;
+	position: absolute;
+	bottom: 15px;
+	width: 100%;
+	text-align: center;
+}
+.app-foot .tab-item .tab-item-name.change{
+	color: #2bc3cc;
+}
+.app-foot .tab-item .tab-item-cricle{
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	background-color: #ff1830;
+	border: 1px solid #696969;
+	border-radius: 50%;
+	top:20px;
+	right:30px;
+}
+/*底部*/
+.app-lesson{
+	overflow: hidden;
+	padding: 0 6px;
+}
+.app-lesson-video{
+	width: 100%;
+	height: 595.01px;
+}
+.app-lesson-text{
+	padding: 48px 40px;
+	color: #484848;
+	
+}
+.app-lesson-text .list-p{
+
+}
+.app-lesson-text .list-p p{
+	font-size: 32px;
+	font-weight: bold;
+	float: left;
+}
+.app-lesson-text .list-p a{
+	color: #2e7989;
+	margin: 0 10px;
+	text-decoration: underline;
+}
+.app-lesson-text .list-p span{
+	width: 81.03px;
+	height: 19px;
+	background:url(../img/More.svg) no-repeat top;
+	background-size: 100%;
+	float: right;
+	margin: 16px 0;
+}
+.app-lesson-text .list-overview{
+
+	margin: 38px 0;
+
+}
+.app-lesson-text .list-overview p{
+	float: left;
+		font-size: 36px;
+			font-weight: bold;
+	line-height: 69px;
+}
+.app-lesson-text .list-overview img{
+	width: 41px;
+	height: 70px;
+	float: right;
+}
+.app-lesson-text .list-overview .comment{
+	float: right;
+	width: 73px;
+	height: 60px;
+	position: relative;
+	margin: 4.5px 0 4.5px 52px;
+	background: url("../img/Discussion blue.svg") no-repeat center;	
+}
+
+.app-lesson-text .list-overview .comment i{
+	position: absolute;
+	font-size: 31px;
+	right: -20px;
+	top: -10px;
+	display: block;
+	line-height: 34px;
+	background: #f1f2ec;
+	text-align: center;
+	color: #2bc3cc;
+	height: auto;
+}
+ .app-lesson-text .app-content-text{
+	width: 100%;
+	position: relative;
+	height: 424px;
+}
+.app-lesson-text .app-content-text p{
+		font-size:30px;
+		width: inherit;
+		text-align: justify;
+		font-weight: normal;
+
+}
+.app-lesson-text .app-start{
+	width: 636.53px;
+	height: 130.47px;
+	display: block;
+	margin: 0 auto ;
+	background: #ffaf00;
+	border-radius: 8px;
+	text-align: center;
+	line-height: 130.47px;
+	text-align: center;
+	font-size: 46px;
+	font-weight: bold;
+	color: #FFFFFF;
+	box-shadow:0px 0px 20px 15px #cecccc; }
+.app-lesson-menu{
+	width: 100%;
+	height: 578px;
+	background: #484848;
+	position: fixed;
+	bottom: -578px;
+	z-index: 999;
+	padding: 55px 103px;
+}
+.app-lesson-menu .menu-list{
+	height: 80px;	
+	display: flex;
+	margin-top: 50px;
+}
+.app-lesson-menu .menu-list:nth-child(1){
+	margin-top: 0;
+}
+.app-lesson-menu .menu-list .menu-img{
+width: 80px;
+	height: 80px;
+}
+.app-lesson-menu .menu-list .menu-img img{
+	width: 100%;
+	display: block;
+}
+.app-lesson-menu .menu-list p{
+	font-size: 36px;
+	color: #FFFFFF;
+	margin-left:78px;
+	line-height: 80px;
+
+}
+/*lesson*/
+.app-discussion-titele{
+	height: 133px;
+	background-color: #FFFFFF;
+	padding: 0 10px;
+	display: flex;
+	position: relative;
+}
+.app-discussion-titele .title-sche{
+	height: 133px;
+	margin-left: 25px;
+	padding: 24px 0;
+}
+.app-discussion-titele .title-sche a{
+	color: #317b8b;
+	text-decoration: underline;
+	margin: 0 5px;
+}
+.app-discussion-titele .title-sche p{
+	font-weight: bold;
+	width: 550px;
+	overflow: hidden;
+}
+.app-discussion-titele .title-practice{
+	width: 195.66px;
+	height: 78.28px;
+	background-color: #ffaf00;
+	border-radius: 5px;
+	line-height: 78.28px;
+	color: #FFFFFF;
+	font-size: 31px;
+	display: block;
+	float: right;
+	text-align: center;
+	position: absolute;
+	top: 23px;
+	right: 21px;
+}
+.app-discussion-classify{
+	line-height: 113px;
+	padding: 0 50px;
+	font-size: 31px;
+	font-weight: bold;
+	color: #696969;
+}  
+.app-discussion-classify .icon-leng{
+	width: 36px;
+	height: 26px;
+	background: url("../img/Sort.svg") center no-repeat;
+	display: inline-block;
+	background-size: 100%;
+	margin-right: 20px;	
+}
+.app-discussion-classify .icon-sanjiao{
+	  width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right:20px solid transparent;
+    border-top: 18px solid #91918f;
+    display: inline-block;
+    margin-left: 98px;
+}
+.app-discussion-seclist{
+	padding: 0 92px 0 105px !important;
+}
+.app-discussion-firlist{
+	padding: 0 38px 0 80px;
+}
+.app-discussion-firlist .list-con{
+	padding: 27px 0;
+	border-top: 1px solid #cccccc;
+	display: flex;
+}
+.app-discussion-firlist .list-con .con-img{
+	width: 119px;
+}
+.app-discussion-firlist .list-con .con-img img{
+	width: 100%;
+	display: block;
+}
+.app-discussion-firlist .list-con .con-text{
+	width: 80%;
+	margin-left: 49px;
+	font-size: 31px;
+}
+.app-discussion-firlist .list-con .con-text p.username{
+	color: #484848;
+	font-weight: bold;
+	margin-top: 27px;
+}
+.app-discussion-firlist .list-con .con-text p.username i{
+	color: #8c8b8b;
+	font-style: italic;
+	float: right;
+}
+.app-discussion-firlist .list-con .con-text p.content{
+	color: #484848;
+	margin-top: 34px;
+	text-align: justify;
+	font-weight: bold;
+}
+.app-discussion-firlist .list-con .con-text .con-icon{
+	margin-top: 30px;
+}
+.app-discussion-firlist .list-con .con-text .con-icon p{
+	float: right;
+	font-weight: bold;
+	color: #929292;
+}
+.app-discussion-firlist .list-con .con-text .con-icon p.change{
+	color:#00b2b7;
+}
+.app-discussion-firlist .list-con .con-text .con-icon p:nth-child(1){
+	margin-left: 95px;
+}
+.app-discussion-firlist .ico-repay{
+	width: 43.94px;
+	height: 28.09px;
+	background: url("../img/Reply icon.svg") center no-repeat;
+	display: inline-block;
+	background-size: 100%;
+	margin-right: 15px;
+}
+.app-discussion-firlist .ico-repay-blue{
+	width: 43.94px;
+	height: 28.09px;
+	background: url("../img/Reply icon_blue.svg") center no-repeat;
+	background-size: 100%;
+	margin-right: 15px;
+	display: inline-block;
+}
+.app-discussion-firlist .ico-zan{
+	width: 36.88px;
+	height:31.59px;
+	background: url("../img/Vote icon.svg") center no-repeat;
+	background-size: 100%;
+	margin-right: 15px;
+	display: inline-block;
+}
+.app-discussion-firlist .ico-zan-blue{
+	width:36.88px;
+	height:31.59px;
+	background: url("../img/Vote icon_blue.svg") center no-repeat;
+	background-size: 100%;
+	margin-right: 15px;
+	display: inline-block;
+}
+.app-btn-add{
+	width: 161.78px;
+	height: 161.78px;
+	border-radius: 50%;
+	background-color: #2bc3cc;
+	box-shadow: 0 0 25px 12px #dadada;
+	position: fixed;
+	bottom: 152px;
+	right: 40px;
+	border: none;
+	color: #FFFFFF;
+	z-index: 999;
+	}
+.app-discussion-comment{
+	width: 100%;
+	height: 292.25px;
+	background: #FFFFFF;
+	padding: 50px 44px;
+	position: fixed;
+	bottom: -292.25px;
+}
+.app-discussion-comment .comment-lest{
+	padding-bottom: 35px;
+	border-bottom: 1px solid #91918f;
+}
+.app-discussion-comment .comment-lest input{
+	width: 100%;
+	background: none;
+	display: block;
+	height: 50px;
+	color: #696969;
+	font-weight: bold;
+	font-size: 31px;
+}
+.app-discussion-comment .comment-to{
+	line-height: 91.3px;
+	position: relative;
+	margin-top: 43px;
+}
+.app-discussion-comment .comment-to a{
+	color: #2e7989;
+	text-decoration: underline;
+}
+.app-discussion-comment .comment-to button{
+	width: 250.44px;
+	height: 91.31px;
+	background-color: #2bc3cc;
+	border-radius: 5px;
+	line-height:91.31px;
+	text-align: center;
+	color: #FFFFFF;
+	position: absolute;
+	font-size:31px;
+	top: 0;
+	right: 0;
+}
+.i-con{
+	width: 38px;
+	height: 38px;
+	background: url("../img/info.svg") no-repeat center;
+	background-size: 100%;
+	display: inline-block;
+	margin: 0 32px 0 82px;
+}
