@@ -60,11 +60,20 @@
 			<a href="#" class="p-forget">Forgot your password?</a>
 		</div>
 		<!------------------表单结束--------------------->
-		<a href="">
+		<a href="course.html">
 			<p class="app-btn-login">
 				Log in  <img src="img/jiantou.svg"/>
 			</p>
 		</a>
 		<p class="app-accountxt">Still haven't signed up yet? <a href="">Create an account for free</a></p>
+		<script src="//cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.app-btn-add').click(function(){
+				$('.app-discussion-comment').animate({bottom:"0"},500)
+			})
+		
+		})
+	</script>	
 	</body>
 </html>

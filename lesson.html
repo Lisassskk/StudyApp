@@ -13,7 +13,7 @@
 	<body>
 		
 		<header class="app-bar">
-			<p class="iconfont fl "></p>
+			<p class="iconfont fl back"></p>
 			<h1 class="title">Lesson</h1>
 		</header>
 		<!------------------标头结束--------------------->		
@@ -91,7 +91,7 @@
 		</div>	
 		<!------------------底部结束--------------------->		
 	</body>
-	<script src="//cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
+	<script src="js/jquery-2.1.0.js"></script>
 	<script>
 		$(document).ready(function(){
 			$('.app-lesson-text .list-p span').click(function(){
@@ -99,6 +99,12 @@
 			})
 			$('.app-lesson-menu .menu-list').eq(3).click(function(){
 				$(this).parent().animate({bottom:"-578px"},500)
+			})
+			$('.comment').click(function(){
+				location.href="discussion.html"
+			})
+			$('.back').click(function(){
+				history.go(-1)
 			})
 		})
 	</script>

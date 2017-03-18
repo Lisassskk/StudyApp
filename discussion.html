@@ -13,7 +13,7 @@
 	<body>
 		
 		<header class="app-bar">
-			<p class="iconfont fl "></p>
+			<p class="iconfont fl back"></p>
 			<h1 class="title">discussion</h1>
 		</header>
 		<!------------------标头结束--------------------->	
@@ -98,7 +98,9 @@ Hi, I just subscribed to the 6 month course. I am in China and having trouble vi
 			$('.app-btn-add').click(function(){
 				$('.app-discussion-comment').animate({bottom:"0"},500)
 			})
-
+	$('.back').click(function(){
+				history.go(-1)
+			})
 		})
 	</script>	
 </html>
