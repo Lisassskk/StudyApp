@@ -36,6 +36,8 @@
 	width:100px;
 	height: 144px;
 	background-size: 100%;
+	transform: scale(0.8);
+	-webkit-transform: scale(0.8);
 }
 .app-bar p.fr{
 	position: relative;
@@ -63,7 +65,7 @@ height: 35px;
 }
 .app-bar p.fr span.i{
 	position: absolute;
-	left: -10px;
+	left: 0px;
 	top: -20px;
 	font-size: 50px;
 	background: url(../img/i.svg) no-repeat center;
@@ -191,6 +193,10 @@ height: 35px;
 	height: 38px;
 	border: 3px #FFFFFF solid;
 }
+.app-login-form .p-rember p.check.change{
+	background:url(../img/ok.svg) no-repeat center;
+	background-size: 100%;
+}
 .app-login-form .p-rember p.text{
 	margin-left: 31px;
 	line-height: 38px;
@@ -221,12 +227,13 @@ height: 35px;
 }
 
 .app-accountxt{
-	width: 100%;
+	width: 80%;
 	text-align: center;
-	margin-top: 60px;
+	margin:60px auto;
 	color: #FFFFFF;
 	font-size: 35px;
 	letter-spacing:2px;
+	line-height: 60px;
 }
 .app-accountxt a{
 	text-decoration: underline;

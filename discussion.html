@@ -81,7 +81,7 @@ Hi, I just subscribed to the 6 month course. I am in China and having trouble vi
 			</div>
 		</div>	
 		<!------------------评论列表结束--------------------->
-		<button class="app-btn-add">+</button>
+		<button class="app-btn-add" onclick="but()">+</button>
 		<div class="app-discussion-comment">
 			<div class="comment-lest">
 				<input type=""placeholder="Ask a question or leave a comment..." name="" id="" value="" />
@@ -94,11 +94,11 @@ Hi, I just subscribed to the 6 month course. I am in China and having trouble vi
 	</body>
 	<script src="//cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
 	<script>
-		$(document).ready(function(){
-			$('.app-btn-add').click(function(){
+		var but=function(){		
 				$('.app-discussion-comment').animate({bottom:"0"},500)
-			})
-	$('.back').click(function(){
+		}		
+		$(document).ready(function(){
+			$('.back').click(function(){
 				history.go(-1)
 			})
 		})

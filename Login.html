@@ -54,7 +54,7 @@
 				</div>
 			</div>	
 			<div class="p-rember">
-				<p class="check"></p>
+				<p class="check change"></p>
 				<p class="text">Remember me</p>
 			</div>
 			<a href="#" class="p-forget">Forgot your password?</a>
@@ -72,7 +72,9 @@
 			$('.app-btn-add').click(function(){
 				$('.app-discussion-comment').animate({bottom:"0"},500)
 			})
-		
+			$('.p-rember').click(function(){
+				$(this).find('.check').toggleClass('change')
+			})
 		})
 	</script>	
 	</body>

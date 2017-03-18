@@ -9,7 +9,7 @@
 a,address,b,big,blockquote,body,cite,code,dd,del,div,dl,dt,em,fieldset,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,label,legend,li,ol,p,pre,small,span,strong,ul,var{ margin: 0; padding: 0; box-sizing: border-box;-webkit-tap-highlight-color:transparent;tap-highlight-color:transparent}
 body{ font-family: "Sinkin Sans 400 Regular"; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;  background: #f1f2ec;overflow-x:hidden;position:relative;}
 html{font-size:100px;}
-input,button{ border-radius:0; -webkit-appearance:normal; border:none;color: inherit; font: inherit;padding: 0;}
+input,button{ border-radius:0; -webkit-appearance:normal; border:none;color: inherit; font: inherit;padding: 0;outline: none;}
 ul, li { list-style:none;}
 @font-face {
 	font-family:"Sinkin Sans 400 Regular";
@@ -20,7 +20,7 @@ ul, li { list-style:none;}
 .clearfix:after { content: ""; height:0; font-size:0rem; visibility:hidden; display:block; clear:both;}
 .clearfix { *zoom:1;}
 a { text-decoration:none; color:inherit; cursor:pointer;-webkit-tap-highlight-color:transparent; }
-p{font-size: 30px;}
+p{font-size: 30px;max-height: 9999px;}
 i { font-style: normal;}
 img { border:none; vertical-align:middle;}
 h1,h2,h3,h4,h5,h6 { font-weight: normal; }
